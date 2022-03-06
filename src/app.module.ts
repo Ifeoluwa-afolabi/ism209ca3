@@ -9,5 +9,6 @@ import { CitizenRegistrationModule } from './citizen-registration/citizen-regist
   imports: [TypeOrmModule.forRoot(),CitizenRegistrationModule],
   controllers: [AppController],
   providers: [AppService],
+  //Testing git
 })
 export class AppModule {}
